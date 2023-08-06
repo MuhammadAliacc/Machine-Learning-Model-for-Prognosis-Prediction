@@ -1,5 +1,5 @@
 # Machine-Learning-Model-for-Prognosis-Prediction
-This project presents an in-depth analysis of prognosis data using the Random Forest Classifier, an advanced machine learning technique. The primary goal is to develop a robust predictive model to forecast patient outcomes based on various prognostic factors. The project leverages the power of Python, particularly the Scikit-learn library, and the Optuna library for hyperparameter optimization.
+This project presents an in-depth analysis of prognosis data using the Random Forest Classifier, an advanced machine learning technique. The primary goal is to develop a robust predictive model to forecast patient outcomes based on various prognostic factors. The project leverages the power of Python, particularly the Scikit-learn library, and the spotpython library for hyperparameter optimization.
 
 # Motivation
 Accurate prognosis is crucial in healthcare to guide medical decision-making and improve patient outcomes. The motivation behind this project is to develop a predictive model that can aid healthcare professionals in making informed decisions for their patients. The Random Forest Classifier is known for its versatility, efficiency, and ability to handle complex data, making it an ideal choice for this task.
