@@ -8,13 +8,14 @@ Accurate prognosis is crucial in healthcare to guide medical decision-making and
 The **Vector Borne Disease Dataset** was used in a study to predict medical prognosis. It consisted of hundreds of samples with case-specific features. The dataset included a target variable prognosis representing prognostic outcomes divided into **eleven classes**. To prepare the dataset for training a classifier model, preprocessing steps involved encoding prognosis names and performing feature engineering. **The goal was to predict the prognosis for unknown data based on the trained model.** 
 
 # Data preprocessing (Feacher Engineering)
-Before fitting the model, we conducted a series of essential data preprocessing steps to ensure the best performance of our neural network. These steps include:
+Before fitting the model, we conducted a series of essential data preprocessing steps to ensure the best performance of our Model. 
+These steps include:
 * Feature Combination: We combined relevant features to create more informative and higher-level features, enhancing the model's ability to capture complex relationships.
 * Feature Clustering: Employing unsupervised learning techniques, we clustered similar features to reduce dimensionality and enhance the interpretability of the model.
 * Feature Selection: Using various selection methods such as recursive feature elimination and statistical tests, we identified the most important features that significantly contribute to the prediction task.
 
 # K-Fold Cross-Validation:
-To robustly evaluate the performance of our neural network model, we adopted the k-fold cross-validation method. The dataset was divided into k subsets (folds), and we trained and evaluated the model k times, each time using a different fold as the validation set and the remaining k-1 folds as the training set. This approach helps us to obtain more reliable performance metrics and minimize overfitting.
+To robustly evaluate the performance of our model, we adopted the k-fold cross-validation method. The dataset was divided into k subsets (folds), and we trained and evaluated the model k times, each time using a different fold as the validation set and the remaining k-1 folds as the training set. This approach helps us to obtain more reliable performance metrics and minimize overfitting.
 
 # Usage
 To reproduce the results or apply the model to other prognosis datasets, clone the GitHub repository. You can customize the Random Forest Classifier's hyperparameters using spotpython or explore further variations of the preprocessing techniques.
